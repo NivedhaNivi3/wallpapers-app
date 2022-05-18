@@ -1,0 +1,47 @@
+.head{
+    text-align: center;
+    padding: 20px;
+    border: double white 2px;
+    background-color: rgb(17, 16, 16);
+    margin-top: 30px;
+    border-radius :24px;
+    color: white; 
+}
+.nav {
+    font-family: 'Macondo', cursive;
+}
+.body{
+
+    padding: 20px;
+    border: 2px solid black;   
+    height: 40vh; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(29, 199, 75, 0.2), 0 6px 20px 0 rgba(173, 19, 19, 0.19); */
+
+}
+.body :hover{
+cursor: pointer;
+    /* padding: 20px;
+    border: 2px solid rgb(17, 232, 110);   
+    height: 80vh; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(29, 199, 75, 0.2), 0 6px 20px 0 rgba(173, 19, 19, 0.19); */
+}
+
+img {
+    transition: all .5s;
+    object-fit: cover;
+}
+.nav{
+    text-align: center;
+    padding: 20px;
+    border: double black 2px;
+    background-color: white;
+    margin-top: 30px;
+    color: white; 
+}
+
+.hover:hover {
+    transform: scale(105%);
+    cursor: pointer;
+}
