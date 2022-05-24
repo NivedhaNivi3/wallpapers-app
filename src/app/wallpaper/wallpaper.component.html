@@ -1,0 +1,15 @@
+<div class="row m-1  flex-header">
+    <div class="col-8  headername" >
+        <h3 >Nivedha</h3>
+    </div>
+    <div class="col-2  headertext "><a routerLink="/home"><h5>Home</h5></a></div>
+    <div class="col-2  headertext"><a routerLink="about" ><h5>about</h5></a></div>
+</div>
+<div class="wallheader">
+    <h3>Wallpaper</h3>
+</div>
+
+
+<div >
+    <img *ngFor="let img of imageList" class="col-4  imgview" [src]="img.src.original" alt="" >
+</div>

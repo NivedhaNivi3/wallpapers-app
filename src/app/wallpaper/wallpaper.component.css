@@ -1,0 +1,61 @@
+.flex-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container>div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    color: red;
+    background-color: white
+}
+
+.flex-header {
+    padding: 1px;
+    background-color: black;
+    margin-bottom :10px
+}
+
+.wallheader {
+    padding: 3px;
+    border-radius: 50px;
+    margin-top: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: black;
+}
+.headername{
+    color: white;
+font-family: 'Pacifico', cursive;
+/* text-align: justify; */
+
+
+}
+.headertext h5{
+text-align: center;
+/* color: white; */
+font-family: 'Pacifico', cursive;
+align-items: center;
+margin-top: 7px;
+}
+
+.headername h3 {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.imgview{
+    margin-bottom: 10px;
+    height: 300px;
+    transition: all .3s ease-out
+}
+.imgview:hover{
+transform: scale(1.03);
+}
